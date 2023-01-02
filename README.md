@@ -33,6 +33,8 @@ From the directory of Dockerfile - `docker build . -t users-mysql`
 
 For Replication of the application needs to be configured by K8s admin.
 
+Ingress will decide which pod will respond to the user request.
+
 <img width="1459" alt="Screenshot 2023-01-03 at 2 47 18 AM" src="https://user-images.githubusercontent.com/97176448/210278648-371e9b89-1368-448b-83a7-da4c723784c9.png">
 
 ## Disaster Recovery :

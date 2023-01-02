@@ -27,6 +27,23 @@ From the directory of Dockerfile - `docker build . -t users-mysql`
 - `docker image rm <image_name`
 
 
+#  Kubernetes
+
+## Scaling and Availbility:
+
+For Replication of the application needs to be configured by K8s admin.
+
+<img width="1459" alt="Screenshot 2023-01-03 at 2 47 18 AM" src="https://user-images.githubusercontent.com/97176448/210278648-371e9b89-1368-448b-83a7-da4c723784c9.png">
+
+## Disaster Recovery :
+
+ETCD check system availabilty and ask new pods and replica started in case of heavy load and also help in disaster recovery as it will create backup of the system and pods, and in case of whole system crash, it will create new pods automatically.
+
+<img width="1422" alt="Screenshot 2023-01-03 at 2 49 21 AM" src="https://user-images.githubusercontent.com/97176448/210278773-42c67576-698c-4eab-8b4f-6bb721d133cf.png">
+
+
+
+
 
 #  ------------------------------------------SEPARATOR
 
